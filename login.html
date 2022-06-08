@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background: rgb(21, 169, 193);
+        background: linear-gradient(
+          90deg,
+          rgba(21, 169, 193, 0.9923319669664741) 48%,
+          rgba(181, 15, 218, 0.8690826672465861) 100%
+        );
+      }
+      #card {
+        width: 30%;
+        height: 650px;
+        margin: 50px auto;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      #wrap {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 30px 10px 30px 10px;
+      }
+      input {
+        width: 90%;
+        margin-top: 10px;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-bottom: 3px solid lightgrey;
+        font-size: 20px;
+      }
+
+      input::placeholder {
+        color: lightgray;
+      }
+      h1 {
+        font-size: 40px;
+      }
+      button {
+        background: rgb(21, 169, 193);
+        background: linear-gradient(
+          90deg,
+          rgba(21, 169, 193, 0.9923319669664741) 48%,
+          rgba(181, 15, 218, 0.8690826672465861) 100%
+        );
+
+        margin-top: 50px;
+        font-size: 20px;
+        width: 97%;
+        padding: 15px;
+        border: none;
+        color: white;
+      }
+      p {
+        margin-top: 20px;
+      }
+      span {
+        color: rgba(21, 169, 193, 0.9923319669664741);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="card">
+      <div id="wrap">
+        <h1>Login</h1>
+        <div>
+          <input type="email" placeholder="Email" />
+        </div>
+
+        <div>
+          <input type="password" placeholder="password" />
+        </div>
+        <button>Login</button>
+        <p>Forgot <span>password?</span></p>
+        <p>Don't have an account? <span>Sing Up</span></p>
+      </div>
+    </div>
+  </body>
+</html>
